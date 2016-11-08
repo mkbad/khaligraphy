@@ -98,7 +98,7 @@ small {
 
 #tooltip #tooltiptext {
     visibility: hidden;
-    width: 100%;
+    width: 110%;
     background-color: rgb(27, 26, 26);
     color: #fff;
     text-align: center;
@@ -126,6 +126,9 @@ small {
 #tooltip:hover #tooltiptext {
     visibility: visible;
 }
+/* Tooltip container */
+
+
 
 /* pricing page styles*/
 .rounded-lg {
@@ -147,11 +150,16 @@ small {
 }
 
 section {
-    padding-top: 30px;
+    padding-top: 60px;
 
     background: rgb(250, 197, 23);
-    background: -webkit-linear-gradient(to right, rgb(250, 197, 23), #0b0c0c);
-    background: linear-gradient(to right, rgb(250, 197, 23), #0b0c0c);
+    background: -webkit-linear-gradient(to bottom, rgb(250, 197, 23), #0b0c0c);
+    background: linear-gradient(to bottom, rgb(250, 197, 23), #0b0c0c);
     color: #514B64;
     min-height: 100vh;
+}
+/* pricing page styles*/
+
+.price-btn{
+    width: 200px;
 }
