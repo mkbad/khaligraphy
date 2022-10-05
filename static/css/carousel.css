@@ -2,11 +2,6 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  color: #5a5a5a;
-}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -15,7 +10,9 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  margin-top: 6rem;
+  margin-top: 4.7rem;
+  height: 32rem;
+  max-height: 32rem;
 }
 
 
@@ -28,6 +25,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  max-height: 32rem;
 }
 
 
