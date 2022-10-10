@@ -35,7 +35,7 @@ header, footer{
     content: '';
     border-bottom: 3px solid;
     padding-bottom: 2px;
-    border-bottom-color: rgb(250, 159, 23);
+    border-bottom-color: rgb(250, 197, 23);
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
@@ -58,3 +58,10 @@ header, footer{
     height: 100%;
     object-fit: cover;
 }
+
+/*
+.carousel-caption {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+*/
