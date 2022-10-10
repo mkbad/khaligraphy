@@ -7,9 +7,13 @@ html{
     font-family: Helvetica;
     overflow-x: hidden;
 }
+body{
+    padding-top: 70px;
+}
 
 
 header, footer{
+    z-index: 1000;
     font-family: headerfont;
     font-style: normal;
     font-size: small;
@@ -65,3 +69,10 @@ header, footer{
     -webkit-text-stroke-color: black;
 }
 */
+.sub-header{
+    position: relative;
+    margin-top: 70px;
+    width: auto;
+    height: 40px;
+    background-color: rgb(250, 197, 23);
+}

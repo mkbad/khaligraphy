@@ -10,7 +10,7 @@
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  margin-top: 4.7rem;
+  /*margin-top: 4.7rem;*/
   height: 32rem;
   max-height: 32rem;
 }

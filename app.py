@@ -23,7 +23,9 @@ def booking():
 def pricing():
     return render_template("pricing.html")
 
-
+@app.route('/gallery', methods=['POST', 'GET'])
+def gallery():
+    return render_template("gallery.html")
 
 if __name__ == "__main__":
     app.run(debug=True, port=7000)
