@@ -45,8 +45,16 @@ header, footer{
 }
 
 .featurette{
-    padding-left: 30px;
+    /*padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
+
 }
 
+.carousel-item > img{ 
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
