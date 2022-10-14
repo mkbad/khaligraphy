@@ -8,12 +8,13 @@ html{
     overflow-x: hidden;
 }
 body{
-    padding-top: 70px;
+    /*padding-top: 70px;*/
+    
 }
 
 
 header, footer{
-    z-index: 1000;
+    z-index: 1;
     font-family: headerfont;
     font-style: normal;
     font-size: small;
@@ -26,7 +27,7 @@ header, footer{
 .khalilogo{
     width: 150px;
     height: 70px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
 
 .nav-li{
@@ -69,10 +70,7 @@ header, footer{
     -webkit-text-stroke-color: black;
 }
 */
-.sub-header{
-    position: relative;
-    margin-top: 70px;
-    width: auto;
-    height: 40px;
-    background-color: rgb(250, 197, 23);
+.gal-card{
+    height: 500px;
+    width: 30px;
 }
