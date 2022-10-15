@@ -31,7 +31,6 @@ header, footer{
 }
 
 .nav-li{
-    margin-right: 15px;
     border-bottom-style: none;
 }
 
@@ -70,7 +69,6 @@ header, footer{
     -webkit-text-stroke-color: black;
 }
 */
-.gal-card{
-    height: 500px;
-    width: 30px;
+.gall-card > img{
+    max-height: 100%;
 }
