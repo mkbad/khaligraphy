@@ -74,6 +74,11 @@
   .featurette-heading {
     font-size: 50px;
   }
+
+  .featurette-image{
+    border-radius: 10px;
+    border: 2px solid gray;
+  }
 }
 
 @media (min-width: 62em) {
