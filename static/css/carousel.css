@@ -9,7 +9,7 @@
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   /*margin-top: 4.7rem;*/
   height: 32rem;
   max-height: 32rem;
@@ -50,6 +50,7 @@
 
 .featurette-divider {
   margin: 3rem 3rem; /* Space out the Bootstrap <hr> more */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 /* Thin out the marketing headings */
