@@ -3,52 +3,54 @@
     src: url("/static/fonts/Aclonica-Regular.ttf");
 }
 
-html{
+html {
     font-family: Helvetica;
     overflow-x: hidden;
 }
-body{
+
+body {
     /*padding-top: 70px;*/
-    
+
 }
 
 
-header, footer{
+header,
+footer {
     z-index: 1;
     font-family: headerfont;
     font-style: normal;
     font-size: small;
-    background-color:#212529;
+    background-color: #212529;
     margin-top: 0px;
     margin-bottom: 0;
     display: block;
 }
 
-.khalilogo{
+.khalilogo {
     width: 150px;
     height: 70px;
     /*margin-left: 20px;*/
 }
 
-.nav-li{
+.nav-li {
     border-bottom-style: none;
 }
 
 .nav-li:after {
-    display:block;
+    display: block;
     content: '';
     border-bottom: 3px solid;
     padding-bottom: 2px;
     border-bottom-color: rgb(250, 197, 23);
-    transform: scaleX(0);  
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
 
-.nav-li:hover:after{
+.nav-li:hover:after {
     transform: scaleX(1);
 }
 
-.carousel-item > img{ 
+.carousel-item>img {
     position: absolute;
     width: 100%;
     max-width: 100%;
@@ -62,21 +64,61 @@ header, footer{
     -webkit-text-stroke-color: black;
 }
 */
-.gall-card > img{
+.gall-card>img {
     max-height: 100%;
 }
-.page-head{
+
+.page-head {
     background-color: rgb(250, 197, 23);
 }
 
-small{
+small {
     color: aliceblue;
     align-self: center;
 }
 
-.hd-icon { 
+.hd-icon {
     transition: all .2s ease-in-out;
 }
-.hd-icon:hover { 
-    transform: scale(1.3); 
+
+.hd-icon:hover {
+    transform: scale(1.3);
+}
+
+
+/* Tooltip container */
+#tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+#tooltip #tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 130%;
+    left: 90%;
+    margin-left: -60px;
+    font-family: headerfont;
+}
+
+#tooltip #tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent rgb(27, 26, 26) transparent;
+}
+
+#tooltip:hover #tooltiptext {
+    visibility: visible;
 }
