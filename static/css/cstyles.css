@@ -3,14 +3,18 @@
     src: url("/static/fonts/Aclonica-Regular.ttf");
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 html {
     font-family: Helvetica;
     overflow-x: hidden;
 }
 
-body {
-    padding-top: 70px;
 
+body {
+    padding-top: 75px;
 }
 
 
@@ -121,4 +125,33 @@ small {
 
 #tooltip:hover #tooltiptext {
     visibility: visible;
+}
+
+/* pricing page styles*/
+.rounded-lg {
+    border-radius: 1rem !important;
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+}
+
+.text-uppercase {
+    letter-spacing: 0.2em;
+}
+
+section {
+    padding-top: 30px;
+
+    background: rgb(250, 197, 23);
+    background: -webkit-linear-gradient(to right, rgb(250, 197, 23), #0b0c0c);
+    background: linear-gradient(to right, rgb(250, 197, 23), #0b0c0c);
+    color: #514B64;
+    min-height: 100vh;
 }

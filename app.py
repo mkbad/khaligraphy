@@ -27,5 +27,9 @@ def pricing():
 def gallery():
     return render_template("gallery.html")
 
+@app.route('/contact', methods=['POST', 'GET'])
+def contact():
+    return render_template("contact.html")
+
 if __name__ == "__main__":
     app.run(debug=True, port=7000)
