@@ -68,8 +68,9 @@ footer {
     -webkit-text-stroke-color: black;
 }
 */
-.gall-card>img {
+#gall-img {
     max-height: 100%;
+    background: gray;
 }
 
 .page-head {
@@ -155,11 +156,23 @@ section {
     background: rgb(250, 197, 23);
     background: -webkit-linear-gradient(to bottom, rgb(250, 197, 23), #0b0c0c);
     background: linear-gradient(to bottom, rgb(250, 197, 23), #0b0c0c);
-    color: #514B64;
+    color: #000000;
     min-height: 100vh;
 }
 /* pricing page styles*/
 
 .price-btn{
     width: 200px;
+}
+.price-box{
+    max-width: 400px;
+    margin: auto;
+}
+
+.blob{
+    border-radius: 69% 31% 30% 67% / 72% 47% 40% 26%;
+    width: 50px;
+    height: 50px;
+    background: rgb(250, 197, 23);
+    margin: auto;
 }
