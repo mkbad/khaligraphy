@@ -107,12 +107,12 @@ small {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: 130%;
+    top: 140%;
     left: 90%;
     margin-left: -60px;
     font-family: headerfont;
 }
-
+/*
 #tooltip #tooltiptext::after {
     content: "";
     position: absolute;
@@ -123,7 +123,7 @@ small {
     border-style: solid;
     border-color: transparent transparent rgb(27, 26, 26) transparent;
 }
-
+*/
 #tooltip:hover #tooltiptext {
     visibility: visible;
 }
